@@ -9,4 +9,7 @@ public func app(_ env: Environment) throws -> Application {
     let app = try Application(config: config, environment: env, services: services)
     try boot(app)
     return app
+  
 }
+
+
